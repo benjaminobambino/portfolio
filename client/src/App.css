@@ -1,4 +1,12 @@
 .App {
+  margin: auto 10vw;
+}
+
+.indent {
+  margin-left: 5vw;
+}
+
+h1 {
   text-align: center;
 }
 
