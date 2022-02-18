@@ -23,6 +23,20 @@ const Projects = () => {
       deployed: 'https://the-creature-collab.herokuapp.com/',
       gitHub: 'https://github.com/moomoomewmew/the-creature-collab'
     },
+    {
+      name: 'Good Dad Bad Jokes',
+      pic: goodDadBadJokes,
+      description: '',
+      deployed: 'https://herokuapp.com/',
+      gitHub: 'https://github.com/benjaminobambino/good-dad-bad-jokes'
+    },
+    {
+      name: 'Video Game DB',
+      pic: videoGameDb,
+      description: '',
+      deployed: 'https://vue-rawg.vercel.app/',
+      gitHub: 'https://github.com/benjaminobambino/u4_hw_vue_RAWG'
+    },
   ]
   return (
     <div className="projects">

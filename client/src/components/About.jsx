@@ -2,7 +2,7 @@ import React from 'react'
 
 const About = () => {
   return (
-    <div>
+    <div className="about">
       <h1>About</h1>
       <p>I am a full-stack software engineer taking my wide background of creativity, 
         versatility, coachability, relatability, hard work, ongoing learning, and critical 

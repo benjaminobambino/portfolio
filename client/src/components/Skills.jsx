@@ -14,7 +14,7 @@ import node from '../icons/nodebw.png'
 import postgresql from '../icons/postgresql.png'
 import python from '../icons/pythonbw.png'
 import redux from '../icons/redux.png'
-import sequelize from '../icons/sequelizebw.png'
+import sequelize from '../icons/sequelize-squared.png'
 import vue from '../icons/vuebw.png'
 
 const Skills = () => {
