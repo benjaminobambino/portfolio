@@ -1,21 +1,21 @@
 import React from 'react'
 import SkillCard from './SkillCard'
-import javascript from '../assets/javascriptbw.png'
-import react from '../assets/reactbw.png'
-import css from '../assets/css.png'
-import django from '../assets/django.png'
-import express from '../assets/ex.png'
-import git from '../assets/git.png'
-import github from '../assets/github.png'
-import html from '../assets/html.png'
-import mongodb from '../assets/mongodb-icon-12.png'
-import mongoose from '../assets/mongoose.png'
-import node from '../assets/nodebw.png'
-import postgresql from '../assets/postgresql.png'
-import python from '../assets/pythonbw.png'
-import redux from '../assets/redux.png'
-import sequelize from '../assets/sequelizebw.png'
-import vue from '../assets/vuebw.png'
+import javascript from '../icons/javascriptbw.png'
+import react from '../icons/reactbw.png'
+import css from '../icons/css.png'
+import django from '../icons/django.png'
+import express from '../icons/ex.png'
+import git from '../icons/git.png'
+import github from '../icons/github.png'
+import html from '../icons/html.png'
+import mongodb from '../icons/mongodb-icon-12.png'
+import mongoose from '../icons/mongoose.png'
+import node from '../icons/nodebw.png'
+import postgresql from '../icons/postgresql.png'
+import python from '../icons/pythonbw.png'
+import redux from '../icons/redux.png'
+import sequelize from '../icons/sequelizebw.png'
+import vue from '../icons/vuebw.png'
 
 const Skills = () => {
   const skills = [
@@ -37,14 +37,14 @@ const Skills = () => {
     { name: 'Redux',
       pic: redux
     },
-    { name: 'Express',
-      pic: express
-    },
     { name: 'Django',
       pic: django
     },
     { name: 'PostgreSQL',
       pic: postgresql
+    },
+    { name: 'Express',
+      pic: express
     },
     { name: 'Sequelize',
       pic: sequelize
