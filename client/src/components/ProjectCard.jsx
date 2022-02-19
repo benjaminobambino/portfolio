@@ -11,6 +11,7 @@ const ProjectCard = ({ project }) => {
         <div className="project-card-back">
           <h3>{project.name}</h3>
           <p>{project.description}</p>
+          <h4>{project.techs}</h4>
           <section className="button-container">
             <a href={project.deployed} target="_blank" rel="noopener noreferrer"><button>Deployed App</button></a>
             <a href={project.gitHub} target="_blank" rel="noopener noreferrer"><button>GitHub</button></a>

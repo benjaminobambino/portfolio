@@ -1,5 +1,4 @@
 .App {
-  /* margin: auto 10vw; */
   /* background-color: black; */
   height: 100%;
 }
@@ -22,7 +21,7 @@ h1 {
   align-items: baseline;
   flex-wrap: wrap;
 
-  /* width: 80vw; */
+  margin: 0 5vw;
 }
 
 .skill-card {
@@ -53,20 +52,19 @@ h1 {
   align-items: center;
 
   /* margin: auto 2vw; */
-  margin: 20px 2px 0 2px;
-  height: 290px;
+  margin: 2vh 1vw 0 1vw;
+  height: 305px;
   width: 435px;
 }
 
 .project-image {
-  /* height: 25vh;
-  width: auto; */
   width: 435px;
+  height: auto;
 }
 
 .project-card-inner {
   position: absolute;
-  height: 290px;
+  height: 305px;
   width: 435px;
   text-align: center;
   transition: transform 0.8s;
@@ -92,6 +90,11 @@ h1 {
 }
 
 .project-card-back {
+  display: flex;
+  flex-direction: column;
+  justify-items: space-around;
+  align-content: space-between;
+
   background-color: black;
   color: white;
   transform: rotateY(180deg);
@@ -103,37 +106,13 @@ h1 {
   text-align: left;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.project-card-back h4 {
+  margin: auto 10px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.button-container {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
+  justify-content: space-between;
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+  margin: 10px;
 }
