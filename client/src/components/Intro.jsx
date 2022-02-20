@@ -2,7 +2,7 @@ import React from 'react'
 
 const Intro = () => {
   return (
-    <div>
+    <div className="intro">
       <p>const name = 'Benjamin Peck';</p>
       <p>const title = 'Full-Stack Software Engineer';</p>
       <p>const readOn = () =&gt; &#123;</p>

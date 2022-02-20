@@ -1,6 +1,9 @@
 .App {
-  /* background-color: black; */
   height: 100%;
+}
+
+.intro {
+  margin: auto 30vw;
 }
 
 .indent {
@@ -15,7 +18,7 @@ h1 {
   margin: auto 5vw;
 }
 
-.skills-container {
+.skills-container, .contacts-container {
   display: flex;
   justify-content: center;
   align-items: baseline;
@@ -24,7 +27,7 @@ h1 {
   margin: 0 5vw;
 }
 
-.skill-card {
+.skill-card, .contact-card {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -32,7 +35,7 @@ h1 {
   margin: auto 2vw;
 }
 
-.skill-image {
+.skill-image, .contact-image {
   width: 100px;
   height: auto;
 }
@@ -42,8 +45,6 @@ h1 {
   justify-content: center;
   align-items: baseline;
   flex-wrap: wrap;
-
-  /* width: 80vw; */
 }
 
 .project-card {
@@ -51,7 +52,6 @@ h1 {
   flex-direction: column;
   align-items: center;
 
-  /* margin: auto 2vw; */
   margin: 2vh 1vw 0 1vw;
   height: 305px;
   width: 435px;
@@ -115,4 +115,53 @@ h1 {
   justify-content: space-between;
 
   margin: 10px;
+}
+
+.resume {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.resume-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: left;
+
+  height: 50vh;
+  overflow: scroll;
+  margin: auto 5vw;
+  border: 1px solid black;
+}
+
+.resume-image {
+  margin-left: 2vw;
+  width: 90%;
+}
+
+.resume a {
+  margin: 1vh auto;
+}
+
+@media (max-width: 500px) {
+  .project-card {
+    height: 65vw;
+    width: 90vw;
+    /* margin-bottom: 5vw; */
+  }
+  
+  .project-image {
+    width: 90vw;
+    height: auto;
+  }
+  
+  .project-card-inner {
+    position: absolute;
+    height: 66.5vw;
+    width: 90vw;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+    box-shadow: 0 4px 8px 0 rgba(240, 234, 234, 0.2);
+  }
 }

@@ -18,61 +18,61 @@ import sequelize from '../icons/sequelize-squared.png'
 import sql from '../icons/sql.png'
 import vue from '../icons/vuebw.png'
 
-const Skills = () => {
-  const skills = [
-    { name: 'JavaScript',
-      pic: javascript
-    },
-    { name: 'Python',
-      pic: python
-    },
-    { name: 'React',
-    pic: react
-    },
-    { name: 'Vue',
-      pic: vue
-    },
-    { name: 'HTML',
-      pic: html
-    },
-    { name: 'Redux',
-      pic: redux
-    },
-    { name: 'Django',
-      pic: django
-    },
-    { name: 'SQL',
-      pic: sql
-    },
-    { name: 'PostgreSQL',
-      pic: postgresql
-    },
-    { name: 'Express',
-      pic: express
-    },
-    { name: 'Sequelize',
-      pic: sequelize
-    },
-    { name: 'MongoDB',
-      pic: mongodb
-    },
-    { name: 'Mongoose',
-      pic: mongoose
-    },
-    { name: 'CSS',
-      pic: css
-    },
-    { name: 'Node',
-      pic: node
-    },
-    { name: 'Git',
-      pic: git
-    },
-    { name: 'GitHub',
-      pic: github
-    },
-  ]
+const skills = [
+  { name: 'JavaScript',
+    pic: javascript
+  },
+  { name: 'Python',
+    pic: python
+  },
+  { name: 'React',
+  pic: react
+  },
+  { name: 'Vue',
+    pic: vue
+  },
+  { name: 'HTML',
+    pic: html
+  },
+  { name: 'Redux',
+    pic: redux
+  },
+  { name: 'Django',
+    pic: django
+  },
+  { name: 'SQL',
+    pic: sql
+  },
+  { name: 'PostgreSQL',
+    pic: postgresql
+  },
+  { name: 'Express',
+    pic: express
+  },
+  { name: 'Sequelize',
+    pic: sequelize
+  },
+  { name: 'MongoDB',
+    pic: mongodb
+  },
+  { name: 'Mongoose',
+    pic: mongoose
+  },
+  { name: 'CSS',
+    pic: css
+  },
+  { name: 'Node',
+    pic: node
+  },
+  { name: 'Git',
+    pic: git
+  },
+  { name: 'GitHub',
+    pic: github
+  },
+]
 
+const Skills = () => {
 
   return (
     <div>
