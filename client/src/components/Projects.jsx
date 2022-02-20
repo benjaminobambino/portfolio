@@ -43,7 +43,7 @@ const projects = [
   {
     name: 'The Game of War',
     pic: war,
-    description: 'The classic card game, "War," using HTML, CSS, and vanilla JavaScript.',
+    description: 'The classic card game, "War," using HTML, CSS, and vanilla JavaScript to manipulate the DOM.',
     deployed: 'https://the-game-of-war.surge.sh/',
     gitHub: 'https://github.com/benjaminobambino/the-game-of-war',
     techs: 'JavaScript || HTML || CSS || Git'
@@ -51,7 +51,7 @@ const projects = [
   {
     name: 'Tic-Tac-Toe',
     pic: ticTacToe,
-    description: "My oldest portfolio piece, I built this tic-tac-toe after one week of class at General Assembly's full-time software engineering immersive boot camp.",
+    description: "My oldest portfolio piece, I built this tic-tac-toe after one week of class at General Assembly's full-time software engineering immersive boot camp. It's a fully functional tic-tac-toe with a running scoreboard, using vanilla JavaScript DOM manipulation.",
     deployed: 'https://blp-tic-tac-toe.surge.sh/',
     gitHub: 'https://github.com/benjaminobambino/u1_hw_tic_tac_toe',
     techs: 'JavaScript || HTML || CSS || Git'
