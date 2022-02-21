@@ -5,7 +5,15 @@ const Header = () => {
   return (
     <nav>
       <ul className="header">
-      <img src={logo} alt="logo" className="logo"/>
+      <Link
+            activeClass="active"
+            to="intro"
+            spy={true}
+            smooth={true}
+            offset={-100}
+            duration={500}>
+            <img src={logo} alt="logo" className="logo"/>
+          </Link>
         <li>
           <Link
             activeClass="active"
@@ -23,7 +31,7 @@ const Header = () => {
             to="about"
             spy={true}
             smooth={true}
-            offset={-60}
+            offset={-90}
             duration={500}>
             About
           </Link>
@@ -34,7 +42,7 @@ const Header = () => {
             to="skills"
             spy={true}
             smooth={true}
-            offset={-60}
+            offset={-90}
             duration={500}>
             Repertoire
           </Link>
@@ -45,20 +53,9 @@ const Header = () => {
             to="projects"
             spy={true}
             smooth={true}
-            offset={-60}
+            offset={-90}
             duration={500}>
             Projects
-          </Link>
-        </li>
-        <li>
-          <Link
-            activeClass="active"
-            to="resume"
-            spy={true}
-            smooth={true}
-            offset={-40}
-            duration={500}>
-            Resume
           </Link>
         </li>
         <li>
@@ -67,9 +64,20 @@ const Header = () => {
             to="contact"
             spy={true}
             smooth={true}
-            offset={-60}
+            offset={-90}
             duration={500}>
             Connect
+          </Link>
+        </li>
+        <li>
+          <Link
+            activeClass="active"
+            to="resume"
+            spy={true}
+            smooth={true}
+            offset={-70}
+            duration={500}>
+            Resume
           </Link>
         </li>
       </ul>
