@@ -2,17 +2,20 @@ const contacts = [
   {
     name: 'Email',
     url: 'mailto:benjaminlpeck@gmail.com?subject=Full Stack Software Engineer',
-    pic: '/icons/email.png'
+    pic: '/icons/email.png',
+    text: 'BenjaminLPeck@gmail.com'
   },
   {
     name: 'LinkedIn',
     url: 'https://www.linkedin.com/in/benjaminlpeck/',
-    pic: '/icons/linkedin.png'
+    pic: '/icons/linkedin.png',
+    text: 'in/benjaminlpeck'
   },
   {
     name: 'GitHub',
-    url: 'https://www.linkedin.com/in/benjaminlpeck/',
-    pic: '/icons/github.png'
+    url: 'https://github.com/benjaminobambino',
+    pic: '/icons/github.png',
+    text: 'github.com/benjaminobambino'
   }
 ];
 

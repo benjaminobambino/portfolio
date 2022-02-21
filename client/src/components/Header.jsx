@@ -1,9 +1,11 @@
 import { Link } from 'react-scroll'
+import logo from '../blp-logo.png'
 
 const Header = () => {
   return (
     <nav>
       <ul className="header">
+      <img src={logo} alt="logo" className="logo"/>
         <li>
           <Link
             activeClass="active"
@@ -21,7 +23,7 @@ const Header = () => {
             to="about"
             spy={true}
             smooth={true}
-            offset={-100}
+            offset={-60}
             duration={500}>
             About
           </Link>
@@ -32,7 +34,7 @@ const Header = () => {
             to="skills"
             spy={true}
             smooth={true}
-            offset={-100}
+            offset={-60}
             duration={500}>
             Repertoire
           </Link>
@@ -43,7 +45,7 @@ const Header = () => {
             to="projects"
             spy={true}
             smooth={true}
-            offset={-100}
+            offset={-60}
             duration={500}>
             Projects
           </Link>
@@ -54,7 +56,7 @@ const Header = () => {
             to="resume"
             spy={true}
             smooth={true}
-            offset={-100}
+            offset={-40}
             duration={500}>
             Resume
           </Link>
@@ -65,7 +67,7 @@ const Header = () => {
             to="contact"
             spy={true}
             smooth={true}
-            offset={-100}
+            offset={-60}
             duration={500}>
             Connect
           </Link>

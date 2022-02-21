@@ -11,7 +11,7 @@ const Resume = () => {
         <img src={resumeOne} alt="resume" className="resume-image" />
         <img src={resumeTwo} alt="resume" className="resume-image" />
       </section>
-      <a href={resume} attributes-list download><button>Download My Resume</button></a>
+      <a href={resume} download="Benjamin-L-Peck-Resume"><button>Download My Resume</button></a>
     </div>
   )
 }
