@@ -6,7 +6,7 @@ const Skills = () => {
 
   return (
     <div className="skills">
-      <h1>My Continually Growing Repertoire</h1>
+      <h1>My Continually-Growing Repertoire</h1>
       <section className="skills-container">
         {skills.map((skill) => {
           return (
