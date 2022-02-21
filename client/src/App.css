@@ -1,20 +1,28 @@
 .App {
-  height: 100%;
+  min-height: 100vh;
+  background-color: #C0C5C1;
+  background-size: cover;
+  color: rgb(17, 16, 16);
 }
 
-.header {
+.header-container .header {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
   width: 100%;
   padding: 0;
   position: fixed;
-  background-color: aqua;
   top: -18px;
   z-index: 9999;
+  background-color: #2B2626;
+  color: #C0C5C1;
 }
 
-.header li, img {
+#hamburger-menu {
+  display: none;
+}
+
+.header li, .header img {
   cursor: pointer;
   list-style-type: none;
 }
@@ -26,17 +34,66 @@
 }
 
 .active {
-  color: blueviolet;
+  color: #ffffff;
   font-size: larger;
   /* padding: 3.5vh 3vw; */
 }
 
 .intro {
+  /* margin-top: 10vh; */
   margin: 10vh 30vw 0;
+  display: flex;
+  justify-content: center;
 }
 
 .indent {
   margin-left: 5vw;
+}
+
+.intro {
+  display: inline-block;
+}
+
+.typed-out  {
+  overflow: hidden;
+  border-right: .15em solid transparent;
+  white-space: nowrap;
+  /* font-size: 1.6rem; */
+  width: 0;
+}
+
+.type1 {
+  animation: 
+    typing 2s steps(30, end) forwards;
+}
+
+.type2 {
+  animation: 
+    typing 3s steps(45, end) forwards; 
+  animation-delay: 2s;
+}
+
+.type3 {
+  animation: 
+    typing 1.2s steps(22, end) forwards; 
+  animation-delay: 5s;
+}
+
+.type4 {
+  animation: 
+    typing 0.8s steps(8, end) forwards; 
+  animation-delay: 6.2s;
+}
+
+.type5 {
+  animation: 
+    typing 0.2s steps(2, end) forwards; 
+  animation-delay: 7s;
+}
+
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
 }
 
 h1 {
@@ -44,10 +101,14 @@ h1 {
 }
 
 .about {
-  margin: 2vh 5vw;
+  padding-top: 1vh;
+  padding-bottom: 1vh;
+  background-color: #2B2626;
+  color: #C0C5C1;
 }
 
 .about-container {
+  margin: auto 5vw;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
@@ -67,6 +128,11 @@ h1 {
   margin-right: 5vw;
 }
 
+.contact {
+  padding-top: 1vh;
+  padding-bottom: 4vh;
+}
+
 .contacts-container {
   display: flex;
   justify-content: space-evenly;
@@ -74,6 +140,11 @@ h1 {
   flex-wrap: wrap;
 
   margin: auto 5vw;
+}
+
+.skills {
+  padding-top: 1vh;
+  padding-bottom: 2vh;
 }
 
 .skills-container {
@@ -96,6 +167,13 @@ h1 {
 .skill-image, .contact-image {
   width: 100px;
   height: auto;
+}
+
+.projects {
+  padding-top: 1vh;
+  padding-bottom: 4vh;
+  background-color: #2B2626;
+  color: #C0C5C1;
 }
 
 .projects-container {
@@ -180,6 +258,10 @@ h1 {
   flex-direction: column;
   align-items: center;
   height: 100vh;
+  padding-top: 1vh;
+  padding-bottom: 1vh;
+  background-color: #2B2626;
+  color: #C0C5C1;
 }
 
 .resume-container {
@@ -189,20 +271,97 @@ h1 {
 
   height: 80vh;
   overflow: scroll;
-  margin: 0 5vw;
-  border: 1px solid black;
+  margin: 0 10vw;
 }
 
 .resume-image {
-  margin-left: 2vw;
-  width: 90%;
+  width: 100%;
 }
 
 .resume a {
-  margin: 1vh auto;
+  margin: 1vh auto 0;
+}
+
+.resume h4:hover {
+  font-size: large;
+  color: #ffffff;
+  cursor: pointer;
 }
 
 @media (max-width: 500px) {
+  #main-menu {
+    display: none;
+  }
+
+  #hamburger-menu {
+    position: fixed;
+    display: inline;
+    width: 50px;
+    height: 50px;
+    display: block;
+    border: none;
+    padding: 0px;
+    margin: 20px;
+    background: linear-gradient(
+      to bottom, 
+      #ffffff, #ffffff 20%, 
+      transparent 20%, transparent 40%, 
+      #ffffff 40%, #ffffff 60%, 
+      transparent 60%, transparent 80%, 
+      #ffffff 80%, #ffffff 100%
+    );
+    z-index: 9999;
+  }
+
+  #hamburger-menu #sidebar-menu {
+    visibilty: hidden;
+    position: fixed;
+    top: 0;
+    left: -250px;
+    width: 200px;
+    height: 100%;
+    transition: 0.3s;
+    padding: 0px 10px;
+    box-sizing: border-box;
+    background-color: #2B2626;
+    color: #C0C5C1;
+  }
+
+  #hamburger-menu:focus #sidebar-menu,
+  #hamburger-menu:focus-within #sidebar-menu  {
+    visibility: visible;
+    left: 0;
+  }
+
+  #hamburger-menu h3 {
+    color: #C0C5C1;
+    font-size: 2.2rem;
+  }
+  
+  #hamburger-menu ul {
+    padding-left: 0px;
+  }
+  
+  #hamburger-menu li {
+    list-style-type: none;
+    line-height: 3rem;
+  }
+  
+  #hamburger-menu a {
+    color: #C0C5C1;
+    font-size: 1.3rem;
+    text-decoration: none;
+  }
+  
+  #hamburger-menu a:hover {
+    font-size: x-large;
+    color: #ffffff;
+  }
+  
+  .intro {
+    margin: 10vh 5vw 0 5vw;
+  }
+
   .project-card {
     height: 65vw;
     width: 90vw;
