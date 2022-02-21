@@ -56,7 +56,7 @@ const projects = [
     description:
       'Frontend Vue.js web app that makes Axios calls to the RAWG API and maps through genres and games based on search and browsing selections.',
     deployed: 'https://vue-rawg.vercel.app/',
-    gitHub: 'https://github.com/benjaminobambino/u4_hw_vue_RAWG',
+    gitHub: 'https://github.com/benjaminobambino/video-game-db-vue',
     techs:
       'Vue || Axios || 3rd Party API || JavaScript || HTML || CSS || Insomnia || Git'
   },
