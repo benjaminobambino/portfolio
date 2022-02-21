@@ -6,7 +6,7 @@ const About = () => {
       <h1>About Me</h1>
       <div className="about-container">
         <section>
-          <img src="/peck-155-blp.JPG" alt="picture" className="self-image"/>
+          <img src="/peck-155-blp.JPG" alt="Benjamin L Peck" className="self-image"/>
         </section>
         <section className="about-text">
           <p>After several years 
