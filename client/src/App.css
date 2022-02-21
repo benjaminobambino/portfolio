@@ -314,6 +314,7 @@ h1 {
 #hamburger-menu:focus-within #sidebar-menu,
 #hamburger-menu:hover #sidebar-menu  {
   visibility: visible;
+  -webkit-visibility: visible;
   left: 0;
 }
 
