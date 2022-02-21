@@ -310,14 +310,6 @@ h1 {
   cursor: pointer;
 }
 
-#hamburger-menu:focus #sidebar-menu,
-#hamburger-menu:focus-within #sidebar-menu,
-#hamburger-menu:hover #sidebar-menu  {
-  visibility: visible;
-  -webkit-visibility: visible;
-  left: 0;
-}
-
 @media (max-width: 500px) {
   #main-menu {
     display: none;
@@ -355,6 +347,13 @@ h1 {
     box-sizing: border-box;
     background-color: #2B2626;
     color: #C0C5C1;
+  }
+
+  #hamburger-menu:focus #sidebar-menu,
+  #hamburger-menu:focus-within #sidebar-menu  {
+    visibility: visible;
+    -webkit-visibility: visible;
+    left: 0;
   }
 
   #hamburger-menu h3 {
