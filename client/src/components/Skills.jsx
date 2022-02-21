@@ -5,7 +5,7 @@ import { skills } from '../data/data'
 const Skills = () => {
 
   return (
-    <div>
+    <div className="skills">
       <h1>My Continually Growing Repertoire</h1>
       <section className="skills-container">
         {skills.map((skill) => {
