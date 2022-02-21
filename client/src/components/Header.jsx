@@ -86,7 +86,7 @@ const Header = () => {
       </nav>
 
       <div className="mobile-header">
-        <img src={logo2} alt="logo" className="logo"/>
+        <img src={logo2} alt="logo" className="logo2"/>
         <button id="hamburger-menu">
           <nav id="sidebar-menu">
             <ul>

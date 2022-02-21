@@ -39,11 +39,12 @@ button:hover {
   display: flex;
 }
 
-.mobile-header img {
+.mobile-header .logo2 {
   display: none;
   position: absolute;
   right: 0;
   margin: 20px;
+  height: 50px;
 }
 
 #hamburger-menu {
@@ -336,7 +337,7 @@ h1 {
     display: none;
   }
 
-  .mobile-header img {
+  .mobile-header .logo2 {
     display: inline;
   }
 
