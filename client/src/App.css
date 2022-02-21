@@ -32,6 +32,7 @@ button:hover {
   z-index: 9999;
   background-color: #2B2626;
   color: #C0C5C1;
+  box-shadow: 0 4px 8px 0 rgba(240, 234, 234, 0.2);
 }
 
 #hamburger-menu {
