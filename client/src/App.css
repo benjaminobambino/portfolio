@@ -47,9 +47,26 @@ h1 {
   margin: 2vh 5vw;
 }
 
-/* .contact {
-  height: 100vh;
-} */
+.about-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items:initial;
+}
+
+.self-image {
+  width: 305px;
+  /* margin-right: 5vw; */
+  border: 1px solid black;
+  border-radius: 50%;
+}
+
+.about-container p {
+  max-width: 700px;
+  margin-left: 5vw;
+  margin-right: 5vw;
+}
+
 .contacts-container {
   display: flex;
   justify-content: space-evenly;
@@ -189,12 +206,16 @@ h1 {
   .project-card {
     height: 65vw;
     width: 90vw;
-    /* margin-bottom: 5vw; */
   }
   
   .project-image {
     width: 90vw;
     height: auto;
+  }
+
+  .self-image {
+    margin-right: 0;
+    width: 75vw;
   }
   
   .project-card-inner {
