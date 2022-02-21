@@ -1,5 +1,5 @@
 import { Link } from 'react-scroll'
-import logo from '../blp-logo-bw.png'
+import logo from '../blp-logo-bwc.png'
 
 const Header = () => {
   return (
