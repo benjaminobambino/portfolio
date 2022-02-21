@@ -67,7 +67,7 @@ const Header = () => {
               smooth={true}
               offset={-80}
               duration={500}>
-              Connect
+              Contact
             </Link>
           </li>
           <li>
@@ -148,7 +148,7 @@ const Header = () => {
                 smooth={true}
                 offset={-90}
                 duration={500}>
-                Connect
+                Contact
               </Link>
             </li>
             <li>

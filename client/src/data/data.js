@@ -40,16 +40,16 @@ const projects = [
     techs:
       'PostgreSQL || Express || React || Node || JWT Auth || Axios || JavaScript || HTML || CSS || Sequelize || Insomnia || Git'
   },
-  {
-    name: 'Good Dad Bad Jokes',
-    pic: '/project-pics/good-dad-bad-jokes.png',
-    description:
-      'Browser-based, full-stack MERN app that does exactly what a good dad should: tell bad jokes. Upon launch, users can immediately enjoy jokes being pulled from the back-end database. Users who sign up can "like" their favorite jokes and contribute their own jokes to the database.',
-    deployed: 'https://herokuapp.com/',
-    gitHub: 'https://github.com/benjaminobambino/good-dad-bad-jokes',
-    techs:
-      'MongoDB || Mongoose || Express || React || Node || Axios || JavaScript || HTML || CSS || Insomnia || Git'
-  },
+  // {
+  //   name: 'Good Dad Bad Jokes',
+  //   pic: '/project-pics/good-dad-bad-jokes.png',
+  //   description:
+  //     'Browser-based, full-stack MERN app that does exactly what a good dad should: tell bad jokes. Upon launch, users can immediately enjoy jokes being pulled from the back-end database. Users who sign up can "like" their favorite jokes and contribute their own jokes to the database.',
+  //   deployed: 'https://herokuapp.com/',
+  //   gitHub: 'https://github.com/benjaminobambino/good-dad-bad-jokes',
+  //   techs:
+  //     'MongoDB || Mongoose || Express || React || Node || Axios || JavaScript || HTML || CSS || Insomnia || Git'
+  // },
   {
     name: 'Video Game DB',
     pic: '/project-pics/video-game-database.png',
@@ -68,16 +68,16 @@ const projects = [
     deployed: 'https://the-game-of-war.surge.sh/',
     gitHub: 'https://github.com/benjaminobambino/the-game-of-war',
     techs: 'JavaScript || HTML || CSS || Git'
-  },
-  {
-    name: 'Tic-Tac-Toe',
-    pic: '/project-pics/tic-tac-toe.png',
-    description:
-      "My oldest portfolio piece, I built this tic-tac-toe after one week of class at General Assembly's full-time software engineering immersive boot camp. It's a fully functional tic-tac-toe with a running scoreboard, using vanilla JavaScript DOM manipulation.",
-    deployed: 'https://blp-tic-tac-toe.surge.sh/',
-    gitHub: 'https://github.com/benjaminobambino/u1_hw_tic_tac_toe',
-    techs: 'JavaScript || HTML || CSS || Git'
   }
+  // {
+  //   name: 'Tic-Tac-Toe',
+  //   pic: '/project-pics/tic-tac-toe.png',
+  //   description:
+  //     "My oldest portfolio piece, I built this tic-tac-toe after one week of class at General Assembly's full-time software engineering immersive boot camp. It's a fully functional tic-tac-toe with a running scoreboard, using vanilla JavaScript DOM manipulation.",
+  //   deployed: 'https://blp-tic-tac-toe.surge.sh/',
+  //   gitHub: 'https://github.com/benjaminobambino/u1_hw_tic_tac_toe',
+  //   techs: 'JavaScript || HTML || CSS || Git'
+  // }
 ];
 
 const skills = [

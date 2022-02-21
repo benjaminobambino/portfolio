@@ -3,6 +3,16 @@
   background-color: #C0C5C1;
   background-size: cover;
   color: rgb(17, 16, 16);
+  font-family: 'Open Sans', sans-serif;
+}
+
+button {
+  background-color: #C0C5C1;
+  color: rgb(17, 16, 16);
+  border: 2px solid #7D8491;
+  border-radius: 4px;
+  padding: 5px;
+  font-family: 'Open Sans', sans-serif;
 }
 
 .header-container .header {
@@ -36,11 +46,9 @@
 .active {
   color: #ffffff;
   font-size: larger;
-  /* padding: 3.5vh 3vw; */
 }
 
 .intro {
-  /* margin-top: 10vh; */
   margin: 10vh 30vw 0;
   display: flex;
   justify-content: center;
@@ -58,8 +66,8 @@
   overflow: hidden;
   border-right: .15em solid transparent;
   white-space: nowrap;
-  /* font-size: 1.6rem; */
   width: 0;
+  font-size: larger;
 }
 
 .type1 {
@@ -75,20 +83,20 @@
 
 .type3 {
   animation: 
-    typing 1.2s steps(22, end) forwards; 
+    typing 2s steps(30, end) forwards; 
   animation-delay: 5s;
 }
 
 .type4 {
   animation: 
     typing 0.8s steps(8, end) forwards; 
-  animation-delay: 6.2s;
+  animation-delay: 6.5s;
 }
 
 .type5 {
   animation: 
     typing 0.2s steps(2, end) forwards; 
-  animation-delay: 7s;
+  animation-delay: 7.2s;
 }
 
 @keyframes typing {
@@ -117,9 +125,9 @@ h1 {
 
 .self-image {
   width: 305px;
-  /* margin-right: 5vw; */
-  border: 1px solid black;
+  border: 1px solid #7D8491;
   border-radius: 50%;
+  box-shadow: 0 4px 8px 0 rgba(240, 234, 234, 0.2);
 }
 
 .about-container p {
@@ -131,6 +139,15 @@ h1 {
 .contact {
   padding-top: 1vh;
   padding-bottom: 4vh;
+}
+
+.contact a {
+  text-decoration: none;
+  color: rgb(17, 16, 16);
+}
+
+.contact a:hover {
+  color: #ffffff;
 }
 
 .contacts-container {
@@ -221,8 +238,8 @@ h1 {
 }
 
 .project-card-front {
-  background-color: #bbb;
-  color: black;
+  background-color: #C0C5C1;
+  color: rgb(17, 16, 16);
 }
 
 .project-card-back {
@@ -231,8 +248,8 @@ h1 {
   justify-items: space-around;
   align-content: space-between;
 
-  background-color: black;
-  color: white;
+  background-color: rgb(17, 16, 16);
+  color: #C0C5C1;
   transform: rotateY(180deg);
   overflow: scroll;
 }

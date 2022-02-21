@@ -9,7 +9,7 @@ const scroll = Scroll.animateScroll;
 const Resume = () => {
   return (
     <div className="resume">
-      <h1>Resume</h1>
+      <h1>My Resume</h1>
       <section className="resume-container">
         <img src={resumeOne} alt="resume" className="resume-image" />
         <img src={resumeTwo} alt="resume" className="resume-image" />
