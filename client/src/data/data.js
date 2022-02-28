@@ -68,16 +68,16 @@ const projects = [
     deployed: 'https://the-game-of-war.surge.sh/',
     gitHub: 'https://github.com/benjaminobambino/the-game-of-war',
     techs: 'JavaScript || HTML || CSS || Git'
+  },
+  {
+    name: 'Tic-Tac-Toe',
+    pic: '/project-pics/tic-tac-toe.png',
+    description:
+      "My oldest portfolio piece, I built this tic-tac-toe after one week of class at General Assembly's full-time software engineering immersive boot camp. It's a fully functional tic-tac-toe with a running scoreboard, using vanilla JavaScript DOM manipulation.",
+    deployed: 'https://blp-tic-tac-toe.surge.sh/',
+    gitHub: 'git@github.com:benjaminobambino/tic-tac-toe-js.git',
+    techs: 'JavaScript || HTML || CSS || Git'
   }
-  // {
-  //   name: 'Tic-Tac-Toe',
-  //   pic: '/project-pics/tic-tac-toe.png',
-  //   description:
-  //     "My oldest portfolio piece, I built this tic-tac-toe after one week of class at General Assembly's full-time software engineering immersive boot camp. It's a fully functional tic-tac-toe with a running scoreboard, using vanilla JavaScript DOM manipulation.",
-  //   deployed: 'https://blp-tic-tac-toe.surge.sh/',
-  //   gitHub: 'https://github.com/benjaminobambino/u1_hw_tic_tac_toe',
-  //   techs: 'JavaScript || HTML || CSS || Git'
-  // }
 ];
 
 const skills = [
