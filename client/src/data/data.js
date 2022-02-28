@@ -75,7 +75,7 @@ const projects = [
     description:
       "My oldest portfolio piece, I built this tic-tac-toe after one week of class at General Assembly's full-time software engineering immersive boot camp. It's a fully functional tic-tac-toe with a running scoreboard, using vanilla JavaScript DOM manipulation.",
     deployed: 'https://blp-tic-tac-toe.surge.sh/',
-    gitHub: 'git@github.com:benjaminobambino/tic-tac-toe-js.git',
+    gitHub: 'https://github.com/benjaminobambino/tic-tac-toe-js',
     techs: 'JavaScript || HTML || CSS || Git'
   }
 ];
