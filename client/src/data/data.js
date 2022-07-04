@@ -82,6 +82,7 @@ const projects = [
 
 const skills = [
   { name: 'JavaScript', pic: '/icons/javascriptbw.png' },
+  { name: 'TypeScript', pic: '/icons/typescript.png' },
   { name: 'Python', pic: '/icons/pythonbw.png' },
   { name: 'React', pic: '/icons/reactbw.png' },
   { name: 'Vue', pic: '/icons/vuebw.png' },
