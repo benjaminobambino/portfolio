@@ -31,6 +31,16 @@ const projects = [
       'Django || Python || PostgreSQL || React || JWT Auth || Axios || 3rd Party API || JavaScript || HTML || CSS || SQL || Insomnia || Postico || Djoser || Git'
   },
   {
+    name: 'Good Dad Bad Jokes',
+    pic: '/project-pics/good-dad-bad-jokes.png',
+    description:
+      'Browser-based, full-stack MERN app that does exactly what a good dad should: tell bad jokes. Upon launch, users can immediately enjoy jokes being pulled from the back-end database. Users who sign up can "like" their favorite jokes and contribute their own jokes to the database.',
+    deployed: 'https://gooddadbadjokes.vercel.app/',
+    gitHub: 'https://github.com/benjaminobambino/good-dad-bad-jokes',
+    techs:
+      'MongoDB || Mongoose || Express || React || Node || Axios || JWT Auth || JavaScript || HTML || CSS || Insomnia || Git'
+  },
+  {
     name: 'Creature Collab',
     pic: '/project-pics/creature-collab.png',
     description:
@@ -40,16 +50,6 @@ const projects = [
     techs:
       'PostgreSQL || Express || React || Node || JWT Auth || Axios || JavaScript || HTML || CSS || Sequelize || Insomnia || Git'
   },
-  // {
-  //   name: 'Good Dad Bad Jokes',
-  //   pic: '/project-pics/good-dad-bad-jokes.png',
-  //   description:
-  //     'Browser-based, full-stack MERN app that does exactly what a good dad should: tell bad jokes. Upon launch, users can immediately enjoy jokes being pulled from the back-end database. Users who sign up can "like" their favorite jokes and contribute their own jokes to the database.',
-  //   deployed: 'https://herokuapp.com/',
-  //   gitHub: 'https://github.com/benjaminobambino/good-dad-bad-jokes',
-  //   techs:
-  //     'MongoDB || Mongoose || Express || React || Node || Axios || JavaScript || HTML || CSS || Insomnia || Git'
-  // },
   {
     name: 'Video Game DB',
     pic: '/project-pics/video-game-database.png',
