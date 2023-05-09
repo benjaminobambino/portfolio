@@ -21,16 +21,6 @@ const contacts = [
 
 const projects = [
   {
-    name: 'Chore Chart',
-    pic: '/project-pics/chore-chart.png',
-    description:
-      'Users can create an account, join an existing household or create their own, and keep track of chores for their whole household.',
-    deployed: 'https://chorechart.netlify.app/',
-    gitHub: 'https://github.com/benjaminobambino/chore-chart',
-    techs:
-      'Django || Python || PostgreSQL || React || JWT Auth || Axios || 3rd Party API || JavaScript || HTML || CSS || SQL || Insomnia || Postico || Djoser || Git'
-  },
-  {
     name: 'Good Dad Bad Jokes',
     pic: '/project-pics/good-dad-bad-jokes.png',
     description:
@@ -41,11 +31,21 @@ const projects = [
       'MongoDB || Mongoose || Express || React || Node || Axios || JWT Auth || JavaScript || HTML || CSS || Insomnia || Git'
   },
   {
+    name: 'Chore Chart',
+    pic: '/project-pics/chore-chart.png',
+    description:
+      'Users can create an account, join an existing household or create their own, and keep track of chores for their whole household.',
+    // deployed: 'https://chorechart.netlify.app/',
+    gitHub: 'https://github.com/benjaminobambino/chore-chart',
+    techs:
+      'Django || Python || PostgreSQL || React || JWT Auth || Axios || 3rd Party API || JavaScript || HTML || CSS || SQL || Insomnia || Postico || Djoser || Git'
+  },
+  {
     name: 'Creature Collab',
     pic: '/project-pics/creature-collab.png',
     description:
       'Group project full-stack app for mythical creatures to create, host, and attend events. Users can create a profile for their character (be it their gaming avatar, D&D persona, LARP alias, or another mythical creature) and discover events with like-minded characters. My contributions were the entire backend and the events-related components.',
-    deployed: 'https://the-creature-collab.herokuapp.com/',
+    // deployed: 'https://the-creature-collab.herokuapp.com/',
     gitHub: 'https://github.com/moomoomewmew/the-creature-collab',
     techs:
       'PostgreSQL || Express || React || Node || JWT Auth || Axios || JavaScript || HTML || CSS || Sequelize || Insomnia || Git'

@@ -13,7 +13,7 @@ const ProjectCard = ({ project }) => {
           <p>{project.description}</p>
           <h4>{project.techs}</h4>
           <section className="button-container">
-            <a href={project.deployed} target="_blank" rel="noopener noreferrer"><button>Deployed App</button></a>
+            {project.deployed ? <a href={project.deployed} target="_blank" rel="noopener noreferrer"><button>Deployed App</button></a> : <p>Deployed App Currently Unavailable</p>}
             <a href={project.gitHub} target="_blank" rel="noopener noreferrer"><button>GitHub</button></a>
           </section>
         </div>
