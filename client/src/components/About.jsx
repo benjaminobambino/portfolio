@@ -18,10 +18,17 @@ const About = () => {
             spent over 70 hours per week for twelve weeks learning and practicing each technology I 
             learned.
           </p>
-          <p>Now, I am a full-stack software engineer taking my wide background of creativity, 
-            versatility, coachability, relatability, hard work, ongoing learning, and critical 
-            thinking into the depths of code. Coming from the worlds of music and philosophy, I 
-            aim to make well-thought and beautiful contributions wherever I am.
+          <p>The boot camp has more than paid off, as I shortly thereafter began my first development role
+            writing automated underwriting software for a major mortgage lender. Despite being hired to work
+            in languages and frameworks far beyond what I learned in boot camp, I thrived taking on new challenges,
+            acquiring new skills, and learning on-the-job in a way that not only benefitted the product from my
+            contributions directly, but also benefitted my teammates as I was able to share with them what I had
+            learned.
+          </p>
+          <p>Now, I am a full-stack software engineer with a wide background in problem-solving, creativity, 
+            versatility, coachability, hard work, ongoing learning, critical thinking, and communication. I 
+            maintain a leave-it-better-than-you-found-it approach with all things, particularly in my passions 
+            for software, music, and people.
           </p>
         </section>
       </div>
