@@ -81,6 +81,7 @@ const projects = [
 ];
 
 const skills = [
+  { name: 'Java', pic: '/icons/java-no-java.png' },
   { name: 'JavaScript', pic: '/icons/javascriptbw.png' },
   { name: 'TypeScript', pic: '/icons/typescript.png' },
   { name: 'Python', pic: '/icons/pythonbw.png' },
@@ -98,7 +99,8 @@ const skills = [
   { name: 'CSS', pic: '/icons/css.png' },
   { name: 'Node', pic: '/icons/nodebw.png' },
   { name: 'Git', pic: '/icons/git.png' },
-  { name: 'GitHub', pic: '/icons/github.png' }
+  { name: 'GitHub', pic: '/icons/github.png' },
+  { name: 'GitLab', pic: '/icons/gitlabbw.png' }
 ];
 
 module.exports = {
