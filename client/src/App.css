@@ -68,17 +68,31 @@ button:hover {
 }
 
 .intro {
+  margin: 1vh 30vw;
+  display: inline-block;
+  font-family: 'Source Code Pro', monospace;
+}
+
+.languages-container {
   margin: 10vh 30vw 0;
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
+  align-items: baseline;
+  overflow: scroll;
+}
+
+.current-language, .other-language {
+  font-weight: bold;
+  font-size: large;
+  cursor: pointer;
+}
+
+.current-language {
+  font-size: x-large;
 }
 
 .indent {
   margin-left: 5vw;
-}
-
-.intro {
-  display: inline-block;
 }
 
 .typed-out  {
@@ -87,6 +101,7 @@ button:hover {
   white-space: nowrap;
   width: 0;
   font-size: larger;
+  margin: 0;
 }
 
 .type1 {
@@ -116,6 +131,47 @@ button:hover {
   animation: 
     typing 0.2s steps(2, end) forwards; 
   animation-delay: 7.2s;
+}
+
+.sql-type1 {
+  animation: 
+    typing 0.5s steps(8, end) forwards;
+}
+
+.sql-type2 {
+  animation: 
+    typing 2s steps(30, end) forwards; 
+  animation-delay: 0.5s;
+}
+
+.sql-type3 {
+  animation: 
+    typing 3s steps(45, end) forwards; 
+  animation-delay: 2.5s;
+}
+
+.sql-type4 {
+  animation: 
+    typing 1.5s steps(15, end) forwards; 
+  animation-delay: 6s;
+}
+
+.sql-type5 {
+  animation: 
+    typing 0.2s steps(2, end) forwards; 
+  animation-delay: 7.5s;
+}
+
+.sql-type6 {
+  animation: 
+    typing 1s steps(11, end) forwards; 
+  animation-delay: 7.7s;
+}
+
+.sql-type7 {
+  animation: 
+    typing 0.2s steps(3, end) forwards; 
+  animation-delay: 8.7s;
 }
 
 @keyframes typing {

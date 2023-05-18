@@ -103,8 +103,11 @@ const skills = [
   { name: 'GitLab', pic: '/icons/gitlabbw.png' }
 ];
 
+const languages = ['JavaScript', 'TypeScript', 'Java', 'Python', 'SQL'];
+
 module.exports = {
   contacts,
   projects,
-  skills
+  skills,
+  languages
 };

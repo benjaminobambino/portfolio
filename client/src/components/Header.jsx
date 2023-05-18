@@ -22,7 +22,7 @@ const Header = () => {
               to="intro"
               spy={true}
               smooth={true}
-              offset={-100}
+              offset={-200}
               duration={500}>
               Welcome
             </Link>

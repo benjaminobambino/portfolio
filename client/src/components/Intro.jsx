@@ -1,15 +1,16 @@
-import React from 'react'
+import React, { useState } from 'react'
+import LanguageMenu from './intro-sub-components/LanguageMenu'
+import CurrentIntro from './intro-sub-components/CurrentIntro'
 
 const Intro = () => {
+  const [currentLang, setCurrentLang] = useState('JavaScript')
+
   return (
-    <div className="intro">
-        <p className="typed-out type1">const name = 'Benjamin Peck'</p>
-        <p className="typed-out type2">const title = 'Full-Stack Software Engineer'</p>
-        <p className="typed-out type3">const readOn = ( ) =&gt; &#123;</p>
-        <p className="typed-out type4"><span className="indent">scroll( )</span></p>
-        <p className="typed-out type5">&#125;</p>
+    <div>
+      <LanguageMenu currentLang={currentLang} setCurrentLang={setCurrentLang} />
+      <CurrentIntro currentLang={currentLang} />
     </div>
-  )
+  )     
 }
 
 export default Intro
