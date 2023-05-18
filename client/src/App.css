@@ -69,22 +69,28 @@ button:hover {
 
 .intro {
   margin: 0 30vw;
-  display: flex;
-  justify-content: center;
+  display: inline-block;
 }
 
 .languages-container {
   margin: 10vh 30vw 0;
   display: flex;
   justify-content: space-evenly;
+  align-items: baseline;
+}
+
+.current-language, .other-language {
+  font-weight: bold;
+  font-size: large;
+  cursor: pointer;
+}
+
+.current-language {
+  font-size: x-large;
 }
 
 .indent {
   margin-left: 5vw;
-}
-
-.intro {
-  display: inline-block;
 }
 
 .typed-out  {
