@@ -1,19 +1,16 @@
 import React, { useState } from 'react'
-import IntroJS from './intro-sub-components/IntroJS'
-import IntroTS from './intro-sub-components/IntroTS'
+import LanguageMenu from './intro-sub-components/LanguageMenu'
+import CurrentIntro from './intro-sub-components/CurrentIntro'
 
 const Intro = () => {
-  const [language, setLanguage] = useState("ts")
+  const [currentLang, setCurrentLang] = useState('JavaScript')
 
-  if (language === "js") {
-    return (
-      <IntroJS />
-    )     
-  } else if (language === "ts") {
-    return (
-      <IntroTS />
-    )     
-  }
+  return (
+    <div>
+      <LanguageMenu currentLang={currentLang} setCurrentLang={setCurrentLang} />
+      <CurrentIntro currentLang={currentLang} />
+    </div>
+  )     
 }
 
 export default Intro

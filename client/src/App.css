@@ -68,9 +68,15 @@ button:hover {
 }
 
 .intro {
-  margin: 10vh 30vw 0;
+  margin: 0 30vw;
   display: flex;
   justify-content: center;
+}
+
+.languages-container {
+  margin: 10vh 30vw 0;
+  display: flex;
+  justify-content: space-evenly;
 }
 
 .indent {
