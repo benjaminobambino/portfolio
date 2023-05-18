@@ -1,15 +1,19 @@
-import React from 'react'
+import React, { useState } from 'react'
+import IntroJS from './intro-sub-components/IntroJS'
+import IntroTS from './intro-sub-components/IntroTS'
 
 const Intro = () => {
-  return (
-    <div className="intro">
-        <p className="typed-out type1">const name = 'Benjamin Peck'</p>
-        <p className="typed-out type2">const title = 'Full-Stack Software Engineer'</p>
-        <p className="typed-out type3">const readOn = ( ) =&gt; &#123;</p>
-        <p className="typed-out type4"><span className="indent">scroll( )</span></p>
-        <p className="typed-out type5">&#125;</p>
-    </div>
-  )
+  const [language, setLanguage] = useState("ts")
+
+  if (language === "js") {
+    return (
+      <IntroJS />
+    )     
+  } else if (language === "ts") {
+    return (
+      <IntroTS />
+    )     
+  }
 }
 
 export default Intro
