@@ -68,8 +68,9 @@ button:hover {
 }
 
 .intro {
-  margin: 0 30vw;
+  margin: 1vh 30vw;
   display: inline-block;
+  font-family: 'Source Code Pro', monospace;
 }
 
 .languages-container {
@@ -100,6 +101,7 @@ button:hover {
   white-space: nowrap;
   width: 0;
   font-size: larger;
+  margin: 0;
 }
 
 .type1 {
