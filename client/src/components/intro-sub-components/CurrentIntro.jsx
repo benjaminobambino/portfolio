@@ -3,6 +3,7 @@ import IntroJS from './IntroJS'
 import IntroTS from './IntroTS'
 import IntroJava from './IntroJava'
 import IntroPython from './IntroPython'
+import IntroSql from './IntroSQL'
 
 const CurrentIntro = ({currentLang}) => {
 
@@ -13,6 +14,8 @@ const CurrentIntro = ({currentLang}) => {
       return (<IntroJava />)
     case "Python":
       return (<IntroPython />)
+    case "SQL":
+      return (<IntroSql />)
     default:
       return (<IntroJS />)
   }
