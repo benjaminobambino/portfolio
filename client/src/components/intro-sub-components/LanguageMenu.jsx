@@ -14,7 +14,6 @@ const LanguageMenu = ( {currentLang, setCurrentLang} ) => {
           return(
             <Link 
               key={language} 
-              to=""
               onClick={() => handleClick(language)}
               className={currentLang === language ? "current-language" : "other-language"}>
                 {language}
