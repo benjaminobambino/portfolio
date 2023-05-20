@@ -455,9 +455,29 @@ h1 {
     font-size: x-large;
     color: #ffffff;
   }
+
+  .languages-container {
+    margin: 10vh 0 0;
+  }
+
+  .current-language, .other-language {
+    font-weight: bold;
+    font-size: medium;
+    cursor: pointer;
+  }
+
+  .current-language {
+    font-size: large;
+  }
   
   .intro {
-    margin: 10vh 5vw 0 5vw;
+    margin: 2vh 1vw;
+  }
+
+  .typed-out {
+    font-size: small;
+    overflow:scroll;
+    overflow-wrap: break-word;
   }
 
   .project-card {
