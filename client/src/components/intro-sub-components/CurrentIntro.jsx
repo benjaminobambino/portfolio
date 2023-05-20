@@ -1,17 +1,14 @@
-import React, { useEffect, useState } from 'react'
+import React from 'react'
 import IntroJS from './IntroJS'
 import IntroTS from './IntroTS'
 import IntroJava from './IntroJava'
 import IntroPython from './IntroPython'
 import IntroSql from './IntroSQL'
 import IntroJavaMobile from './mobile-intro/IntroJavaMobile'
+import useWindowWidth from '../../custom-hooks/useWindowWidth'
 
 const CurrentIntro = ({currentLang}) => {
-  const [width, setWidth] = useState(1000);
-
-  useEffect(() => {
-    setWidth(window.innerWidth)
-  }, [])
+  const width = useWindowWidth();
 
   switch(currentLang) {
     case "TypeScript":

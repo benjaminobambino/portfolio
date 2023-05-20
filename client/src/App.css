@@ -457,7 +457,7 @@ h1 {
   }
 
   .languages-container {
-    margin: 10vh 0 0;
+    margin: 15vh 0 0;
   }
 
   .current-language, .other-language {
@@ -485,38 +485,38 @@ h1 {
 
   .java-type2 {
     animation: 
-      typing 3s steps(45, end) forwards; 
+      typing 1.5s steps(15, end) forwards; 
     animation-delay: 2s;
   }
 
   .java-type3 {
     animation: 
       typing 2s steps(30, end) forwards; 
-    animation-delay: 5s;
+    animation-delay: 3.5s;
   }
 
   .java-type4 {
     animation: 
-      typing 0.8s steps(8, end) forwards; 
-    animation-delay: 6.5s;
+      typing 2s steps(30, end) forwards; 
+    animation-delay: 5.5s;
   }
 
   .java-type5 {
     animation: 
-      typing 0.2s steps(2, end) forwards; 
-    animation-delay: 7.2s;
+      typing 2s steps(30, end) forwards; 
+    animation-delay: 7.5s;
   }
 
   .java-type6 {
     animation: 
-      typing 0.2s steps(2, end) forwards; 
-    animation-delay: 7.2s;
+      typing 1s steps(10, end) forwards; 
+    animation-delay: 9.5s;
   }
 
   .java-type7 {
     animation: 
       typing 0.2s steps(2, end) forwards; 
-    animation-delay: 7.2s;
+    animation-delay: 10.5s;
   }
 
   .project-card {
