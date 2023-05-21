@@ -98,9 +98,7 @@ const skills = [
   { name: 'Mongoose', pic: '/icons/mongoose.png' },
   { name: 'CSS', pic: '/icons/css.png' },
   { name: 'Node', pic: '/icons/nodebw.png' },
-  { name: 'Git', pic: '/icons/git.png' },
-  { name: 'GitHub', pic: '/icons/github.png' },
-  { name: 'GitLab', pic: '/icons/gitlabbw.png' }
+  { name: 'Git', pic: '/icons/git.png' }
 ];
 
 const languages = ['JavaScript', 'TypeScript', 'Java', 'Python', 'SQL'];
