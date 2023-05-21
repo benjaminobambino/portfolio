@@ -152,29 +152,23 @@ button:hover {
 
 .sql-type4 {
   animation: 
-    typing 3s steps(45, end) forwards; 
-  animation-delay: 2.5s;
-}
-
-.sql-type5 {
-  animation: 
     typing 1.5s steps(15, end) forwards; 
   animation-delay: 6s;
 }
 
-.sql-type6 {
+.sql-type5 {
   animation: 
     typing 0.2s steps(2, end) forwards; 
   animation-delay: 7.5s;
 }
 
-.sql-type7 {
+.sql-type6 {
   animation: 
     typing 1s steps(11, end) forwards; 
   animation-delay: 7.7s;
 }
 
-.sql-type8 {
+.sql-type7 {
   animation: 
     typing 0.2s steps(3, end) forwards; 
   animation-delay: 8.7s;
@@ -564,43 +558,49 @@ h1 {
     animation: 
       typing 0.5s steps(8, end) forwards;
   }
-  
+
   .sql-type2 {
     animation: 
       typing 2s steps(30, end) forwards; 
     animation-delay: 0.5s;
   }
-  
+
   .sql-type3 {
     animation: 
-      typing 3s steps(45, end) forwards; 
+      typing 1.5s steps(25, end) forwards; 
     animation-delay: 2.5s;
   }
-  
+
   .sql-type4 {
     animation: 
-      typing 1.5s steps(15, end) forwards; 
-    animation-delay: 6s;
+      typing 1.5s steps(25, end) forwards; 
+    animation-delay: 3.5s;
   }
-  
+
   .sql-type5 {
     animation: 
-      typing 0.2s steps(2, end) forwards; 
-    animation-delay: 7.5s;
+      typing 1.5s steps(15, end) forwards; 
+    animation-delay: 5s;
   }
-  
+
   .sql-type6 {
     animation: 
-      typing 1s steps(11, end) forwards; 
-    animation-delay: 7.7s;
+      typing 0.3s steps(2, end) forwards; 
+    animation-delay: 6.5s;
   }
-  
+
   .sql-type7 {
     animation: 
-      typing 0.2s steps(3, end) forwards; 
-    animation-delay: 8.7s;
+      typing 1s steps(11, end) forwards; 
+    animation-delay: 6.8s;
   }
-  
+
+  .sql-type8 {
+    animation: 
+      typing 0.5s steps(3, end) forwards; 
+    animation-delay: 7.2s;
+  }
+
   .project-card {
     height: 65vw;
     width: 90vw;
