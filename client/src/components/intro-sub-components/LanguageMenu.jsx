@@ -1,5 +1,4 @@
 import React from 'react'
-import { Link } from 'react-scroll'
 import { languages } from '../../data/data.js'
 
 const LanguageMenu = ( {currentLang, setCurrentLang} ) => {
@@ -12,12 +11,12 @@ const LanguageMenu = ( {currentLang, setCurrentLang} ) => {
       <div className="languages-container">
         { languages.map((language) => {
           return(
-            <Link 
+            <h3 
               key={language} 
               onClick={() => handleClick(language)}
               className={currentLang === language ? "current-language" : "other-language"}>
                 {language}
-            </Link>
+            </h3>
             )
           })}
       </div>

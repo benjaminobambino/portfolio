@@ -455,9 +455,150 @@ h1 {
     font-size: x-large;
     color: #ffffff;
   }
+
+  .languages-container {
+    margin: 15vh 0 0;
+  }
+
+  .current-language, .other-language {
+    font-weight: bold;
+    font-size: medium;
+    cursor: pointer;
+  }
+
+  .current-language {
+    font-size: large;
+  }
   
   .intro {
-    margin: 10vh 5vw 0 5vw;
+    margin: 2vh 1vw;
+  }
+
+  .typed-out {
+    font-size: 3.5vw;
+  }
+
+  .ts-type1 {
+    animation: 
+      typing 2s steps(30, end) forwards;
+  }
+
+  .ts-type2 {
+    animation: 
+      typing 1.3s steps(20, end) forwards; 
+    animation-delay: 2s;
+  }
+
+  .ts-type3 {
+    animation: 
+      typing 1.5s steps(20, end) forwards; 
+    animation-delay: 3.3s;
+  }
+
+  .ts-type4 {
+    animation: 
+      typing 2s steps(30, end) forwards; 
+    animation-delay: 4.8s;
+  }
+
+  .ts-type5 {
+    animation: 
+      typing 0.8s steps(8, end) forwards; 
+    animation-delay: 6.8s;
+  }
+
+  .ts-type6 {
+    animation: 
+      typing 0.2s steps(2, end) forwards; 
+    animation-delay: 7.6s;
+  }
+
+  .java-type1 {
+    animation: 
+      typing 2s steps(30, end) forwards;
+  }
+
+  .java-type2 {
+    animation: 
+      typing 1.5s steps(15, end) forwards; 
+    animation-delay: 2s;
+  }
+
+  .java-type3 {
+    animation: 
+      typing 2s steps(30, end) forwards; 
+    animation-delay: 3.5s;
+  }
+
+  .java-type4 {
+    animation: 
+      typing 2s steps(30, end) forwards; 
+    animation-delay: 5.5s;
+  }
+
+  .java-type5 {
+    animation: 
+      typing 2s steps(30, end) forwards; 
+    animation-delay: 7.5s;
+  }
+
+  .java-type6 {
+    animation: 
+      typing 1s steps(10, end) forwards; 
+    animation-delay: 9.5s;
+  }
+
+  .java-type7 {
+    animation: 
+      typing 0.2s steps(2, end) forwards; 
+    animation-delay: 10.5s;
+  }
+
+  .sql-type1 {
+    animation: 
+      typing 0.5s steps(8, end) forwards;
+  }
+
+  .sql-type2 {
+    animation: 
+      typing 2s steps(30, end) forwards; 
+    animation-delay: 0.5s;
+  }
+
+  .sql-type3 {
+    animation: 
+      typing 1.5s steps(25, end) forwards; 
+    animation-delay: 2.5s;
+  }
+
+  .sql-type4 {
+    animation: 
+      typing 1.5s steps(25, end) forwards; 
+    animation-delay: 3.5s;
+  }
+
+  .sql-type5 {
+    animation: 
+      typing 1.5s steps(15, end) forwards; 
+    animation-delay: 5s;
+  }
+
+  .sql-type6 {
+    animation: 
+      typing 0.3s steps(2, end) forwards; 
+    animation-delay: 6.5s;
+  }
+
+  .sql-type7 {
+    animation: 
+      typing 1s steps(11, end) forwards; 
+    animation-delay: 6.8s;
+  }
+
+  .sql-type8 {
+    animation: 
+      typing 0.5s steps(3, end) forwards; 
+    animation-delay: 7.2s;
   }
 
   .project-card {
