@@ -1,5 +1,6 @@
 .App {
   min-height: 100vh;
+  height: 100%;
   background-color: #C0C5C1;
   background-size: cover;
   color: rgb(17, 16, 16);
@@ -395,6 +396,7 @@ h1 {
 
   .mobile-header .logo2 {
     display: inline;
+    background-color: ;
   }
 
   #hamburger-menu {
