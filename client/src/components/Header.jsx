@@ -1,8 +1,11 @@
 import { Link } from 'react-scroll'
 import logo from '../blp-logo-bwc.png'
 import logo2 from '../blp-logo.png'
+import useWindowWidth from '../custom-hooks/useWindowWidth';
 
 const Header = () => {
+  const width = useWindowWidth();
+
   return (
     <div className="header-container">
       <nav id="main-menu">
@@ -22,7 +25,7 @@ const Header = () => {
               to="intro"
               spy={true}
               smooth={true}
-              offset={-200}
+              offset={width >= 500 ? -200 : -100}
               duration={500}>
               Welcome
             </Link>
