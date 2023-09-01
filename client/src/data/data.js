@@ -81,15 +81,16 @@ const projects = [
 ];
 
 const skills = [
-  { name: 'Java', pic: '/icons/java-no-java.png' },
-  { name: 'JavaScript', pic: '/icons/javascriptbw.png' },
   { name: 'TypeScript', pic: '/icons/typescript.png' },
+  { name: 'JavaScript', pic: '/icons/javascriptbw.png' },
+  { name: 'Java', pic: '/icons/java-no-java.png' },
   { name: 'Python', pic: '/icons/pythonbw.png' },
   { name: 'React', pic: '/icons/reactbw.png' },
   { name: 'Vue', pic: '/icons/vuebw.png' },
+  { name: 'Node', pic: '/icons/nodebw.png' },
+  { name: 'Django', pic: '/icons/django.png' },
   { name: 'HTML', pic: '/icons/html.png' },
   { name: 'Redux', pic: '/icons/redux.png' },
-  { name: 'Django', pic: '/icons/django.png' },
   { name: 'SQL', pic: '/icons/sql.png' },
   { name: 'PostgreSQL', pic: '/icons/postgresql.png' },
   { name: 'Express', pic: '/icons/express-squared.png' },
@@ -97,7 +98,6 @@ const skills = [
   { name: 'MongoDB', pic: '/icons/mongodb-icon-12.png' },
   { name: 'Mongoose', pic: '/icons/mongoose.png' },
   { name: 'CSS', pic: '/icons/css.png' },
-  { name: 'Node', pic: '/icons/nodebw.png' },
   { name: 'Git', pic: '/icons/git.png' }
 ];
 
